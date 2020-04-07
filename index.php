@@ -6,6 +6,10 @@
     <title>Training</title>
 </head>
 <body>
-    
+    <form action="validation.php" method="POST">
+        <label for="name">Enter name</label>
+        <input type="text" id="name" name="name"> <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
