@@ -1,5 +1,12 @@
 <?php
 
+session_start();
+
+if (isset($_SESSION['name'])) {
+    header("Location: profile.php");
+    exit;
+}
+
 $name = "admin";
 $password = "admin!";
 
@@ -16,7 +23,6 @@ if ($nameInput !== $name || $passwordInput !== $password) {
     exit;
 }
 
-session_start();
 $_SESSION['name'] = $name;
 
 header("Location: profile.php");
