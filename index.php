@@ -12,9 +12,9 @@
             <div class="column is-one-fifth">
                 <form action="validation.php" method="POST">
                     <input type="text" id="name" name="name" class="input" placeholder="Enter name"> <br>
-                    <input type="text" id="name" name="age" class="input" placeholder="Enter age"> <br>
-                    <input type="text" id="name" name="city" class="input" placeholder="Enter city"> <br>
-                    <input type="text" id="email" name="city" class="input" placeholder="Enter email"> <br>
+                    <input type="text" id="age" name="age" class="input" placeholder="Enter age"> <br>
+                    <input type="text" id="city" name="city" class="input" placeholder="Enter city"> <br>
+                    <input type="text" id="email" name="email" class="input" placeholder="Enter email"> <br>
                     <input type="submit" class="button is-primary">
                 </form>
             </div>
